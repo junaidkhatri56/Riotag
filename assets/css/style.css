@@ -1,0 +1,2146 @@
+@font-face {
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-family: poppins;
+}
+@font-face {
+  src: url("../fonts/GlacialIndifference-Bold.otf");
+  font-family: glacial-b;
+}
+@font-face {
+  src: url("../fonts/GlacialIndifference-regular.otf");
+  font-family: glacial;
+}
+@font-face {
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-family: junaid;
+}
+@font-face {
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-family: open-reg;
+}
+@font-face {
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-family: open-bold;
+}
+@font-face {
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-family: mont-reg;
+}
+@font-face {
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-family: mont-bold;
+}
+@font-face {
+  src: url(../fonts/Montserrat-Italic.ttf);
+  font-family: mont-italic;
+}
+@font-face {
+  src: url(../fonts/Lato-Regular.ttf);
+  font-family: lato-reg;
+}
+.red {
+  background: #e02950;
+}
+.red .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.red .container .topbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.red .container .topbar .toplink {
+  width: 65%;
+}
+.red .container .topbar .toplink ul {
+  padding: 25px 15px;
+}
+.red .container .topbar .toplink ul li {
+  display: inline;
+  color: white;
+  margin-right: 26px;
+  font-family: glacial;
+  font-size: 16px;
+}
+.red .container .topbar .toplink ul li a {
+  text-decoration: none;
+  color: white;
+}
+.red .container .topbar .topicon {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 35%;
+}
+.red .container .topbar .topicon .left {
+  width: 70%;
+}
+.red .container .topbar .topicon .left ul {
+  padding: 25px 0px 25px 32px;
+}
+.red .container .topbar .topicon .left ul li {
+  display: inline;
+  color: white;
+  margin-left: 13px;
+  font-family: glacial;
+  font-size: 16px;
+}
+.red .container .topbar .topicon .left ul li a {
+  text-decoration: none;
+  color: white;
+}
+.red .container .topbar .topicon .left ul li a i {
+  font-size: 13px;
+}
+.red .container .topbar .topicon .right {
+  width: 30%;
+}
+.red .container .topbar .topicon .right ul {
+  padding: 25px 0px 25px 10px;
+}
+.red .container .topbar .topicon .right ul li {
+  display: inline;
+  color: white;
+  margin-left: 6px;
+  font-family: glacial;
+  font-size: 16px;
+}
+.red .container .topbar .topicon .right ul li a {
+  text-decoration: none;
+  color: white;
+}
+.red .container .topbar .topicon .right ul li a i {
+  font-size: 13px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container .riot {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .riot .logo {
+  width: 25%;
+}
+.container .riot .logo img {
+  width: 104%;
+  margin-top: 28px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+}
+.container .riot nav {
+  width: 65%;
+}
+.container .riot nav i.fa-solid {
+  display: none;
+}
+.container .riot nav ul {
+  margin-top: 80px;
+  margin-left: 45px;
+}
+.container .riot nav ul li {
+  display: inline;
+  font-family: glacial;
+  padding-left: 47px;
+  font-size: 18px;
+  color: #a7a7a7;
+}
+.container .riot nav ul li a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+.container .riot nav ul li :hover {
+  color: #e02950;
+}
+.container .riot .icon {
+  width: 10%;
+}
+.container .riot .icon ul {
+  margin: 78px 0 0 34px;
+}
+.container .riot .icon ul li {
+  display: inline;
+  padding-right: 23px;
+  font-size: 19px;
+  color: #b1b1b1;
+}
+.container .riot .icon ul li a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+.container .riot .icon ul li :hover {
+  color: #e02950;
+}
+
+.banner {
+  padding: 50px 0px 50px 0px;
+  background-size: 100%;
+  background-position: center;
+  background-image: url("../img/banner.gif");
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.banner h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: glacial-b;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.banner p {
+  font-size: 18px;
+  font-family: glacial;
+  padding-bottom: 30px;
+  line-height: 1.6;
+}
+.banner button {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 20px 90px;
+  font-size: 20px;
+  font-family: glacial;
+  margin: 0 auto;
+  display: block;
+}
+.banner button a {
+  text-decoration: none;
+  color: white;
+}
+.banner img {
+  margin-top: 40px;
+}
+.banner img a {
+  text-decoration: none;
+}
+
+.b2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.b2 .b21 {
+  width: 30%;
+}
+.b2 .b21 img {
+  width: 65%;
+}
+.b2 .b22 {
+  width: 30%;
+  margin-left: 30px;
+}
+.b2 .b22 img {
+  width: 65%;
+}
+.b2 .b23 {
+  width: 30%;
+  margin-left: 20px;
+}
+.b2 .b23 img {
+  width: 65%;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.product .industry {
+  background-image: url("../img/img1.gif");
+  width: 47%;
+  color: white;
+  margin-left: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product .industry .i {
+  width: 70%;
+}
+.product .industry .i h1 {
+  font-size: 30px;
+  font-family: mont-bold;
+  padding: 300px 0 20px 30px;
+}
+.product .industry .i1 {
+  width: 30%;
+}
+.product .industry .i1 a {
+  text-decoration: none;
+  color: white;
+}
+.product .industry .i1 a i {
+  font-size: 30px;
+  padding: 300px 0 0 90px;
+}
+.product .health2 {
+  background-image: url("../img/img2.gif");
+  width: 47%;
+  color: white;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product .health2 .h {
+  width: 70%;
+}
+.product .health2 .h h1 {
+  font-size: 30px;
+  font-family: mont-bold;
+  padding: 300px 0 20px 30px;
+}
+.product .health2 .h1 {
+  width: 30%;
+}
+.product .health2 .h1 a {
+  text-decoration: none;
+  color: white;
+}
+.product .health2 .h1 a i {
+  font-size: 30px;
+  padding: 300px 0 0 90px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 96%;
+  margin-left: 2%;
+}
+.products .pro1 {
+  width: 23%;
+  border: 2px solid #e6e6e6;
+  padding-top: 90px;
+}
+.products .pro1 p {
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: glacial;
+}
+.products .pro1 p a {
+  text-decoration: none;
+  color: black;
+}
+.products .pro2 {
+  width: 23%;
+  border: 2px solid #e6e6e6;
+  padding-top: 90px;
+}
+.products .pro2 p {
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: glacial;
+  padding-bottom: 15px;
+}
+.products .pro2 p a {
+  text-decoration: none;
+  color: black;
+}
+.products .pro3 {
+  width: 23%;
+  border: 2px solid #e6e6e6;
+  padding-top: 130px;
+}
+.products .pro3 p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: glacial;
+}
+.products .pro3 p a {
+  text-decoration: none;
+  color: black;
+}
+.products .pro4 {
+  width: 23%;
+  border: 2px solid #e6e6e6;
+  padding-top: 90px;
+}
+.products .pro4 p {
+  padding-top: 8px;
+  font-size: 20px;
+  font-family: glacial;
+}
+.products .pro4 p a {
+  text-decoration: none;
+  color: black;
+}
+
+.product1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.product1 .industry1 {
+  background-image: url("../img/img3.gif");
+  width: 47%;
+  color: white;
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product1 .industry1 .k {
+  width: 70%;
+}
+.product1 .industry1 .k h1 {
+  font-size: 30px;
+  font-family: mont-bold;
+  padding: 300px 0 20px 30px;
+}
+.product1 .industry1 .k1 {
+  width: 30%;
+}
+.product1 .industry1 .k1 a {
+  text-decoration: none;
+  color: white;
+}
+.product1 .industry1 .k1 a i {
+  font-size: 30px;
+  padding: 300px 0 0 90px;
+}
+.product1 .health1 {
+  background-image: url("../img/img4.gif");
+  width: 47%;
+  color: white;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product1 .health1 .m {
+  width: 70%;
+}
+.product1 .health1 .m h1 {
+  font-size: 30px;
+  font-family: mont-bold;
+  padding: 300px 0 20px 30px;
+}
+.product1 .health1 .m1 {
+  width: 30%;
+}
+.product1 .health1 .m1 a {
+  text-decoration: none;
+  color: white;
+}
+.product1 .health1 .m1 a i {
+  font-size: 30px;
+  padding: 300px 0 0 90px;
+}
+
+.world {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+.world .pure {
+  width: 30%;
+}
+.world .pure h1 {
+  font-size: 23px;
+  font-family: poppins;
+  padding: 20px 0 13px;
+  line-height: 1.5;
+}
+.world .pure p {
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: 400;
+  color: #898989;
+  line-height: 1.3;
+}
+.world .free {
+  width: 30%;
+  margin-left: 30px;
+}
+.world .free h1 {
+  font-size: 23px;
+  font-family: poppins;
+  padding: 20px 0 13px;
+  line-height: 1.5;
+}
+.world .free p {
+  font-size: 18px;
+  font-family: poppins;
+  line-height: 1.4;
+  padding-right: 63px;
+  color: #aaaaaa;
+}
+.world .best {
+  width: 30%;
+  margin-left: 20px;
+}
+.world .best h1 {
+  font-size: 23px;
+  font-family: poppins;
+  padding: 20px 0 13px;
+  line-height: 1.5;
+}
+.world .best p {
+  font-size: 17px;
+  font-family: poppins;
+  line-height: 1.4;
+  padding-right: 103px;
+  color: #aaaaaa;
+}
+
+.portfolio {
+  text-align: center;
+}
+.portfolio h1 {
+  font-size: 32px;
+  padding: 20px 0 40px;
+  font-family: glacial-b;
+  font-weight: bolder;
+  color: black;
+}
+
+.come {
+  padding: 50px 0px 50px 0px;
+  background-size: 100%;
+  background-position: center;
+  background-image: url("../img/pink1.gif");
+  color: white;
+  margin-bottom: 30px;
+}
+.come .line {
+  padding-top: 250px;
+  padding-left: 100px;
+}
+.come .line h1 {
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: "glacial";
+  padding-bottom: 15px;
+  border-left: 3px solid #e64364;
+  padding-left: 15px;
+}
+.come .line p {
+  font-size: 13px;
+  font-family: "glacial";
+  line-height: 2;
+  border-left: 3px solid #e64364;
+  padding-left: 15px;
+  font-weight: 900;
+}
+
+.view {
+  margin-bottom: 100px;
+}
+.view button {
+  background: none;
+  border: 1px solid black;
+  padding: 20px 80px;
+  font-size: 16px;
+  font-family: poppins;
+  margin: 0 auto;
+  display: block;
+}
+.view button a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog {
+  text-align: center;
+}
+.blog h1 {
+  font-size: 32px;
+  padding: 20px 0 40px;
+  font-family: glacial-b;
+}
+
+.health {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e3e7e7;
+  margin-bottom: 50px;
+}
+.health .mask {
+  width: 32%;
+}
+.health .mask img {
+  padding-bottom: 20px;
+}
+.health .mask h1 {
+  font-size: 22px;
+  font-family: glacial-b;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.health .mask span {
+  font-size: 12px;
+  color: #a1a1a1;
+  font-family: "glacial";
+}
+.health .mask p {
+  font-family: "glacial";
+  line-height: 1.5;
+  color: #9e9e9e;
+  padding-bottom: 20px;
+}
+.health .mask a {
+  text-decoration: none;
+  color: #464646;
+  font-family: mont-reg;
+  font-weight: 600;
+}
+.health .egg {
+  width: 32%;
+  padding-bottom: 100px;
+}
+.health .egg img {
+  padding-bottom: 20px;
+}
+.health .egg h1 {
+  font-size: 22px;
+  font-family: glacial-b;
+  font-weight: bold;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+.health .egg span {
+  font-size: 12px;
+  color: #a1a1a1;
+  font-family: "glacial";
+}
+.health .egg p {
+  font-family: "glacial";
+  line-height: 1.5;
+  color: #9e9e9e;
+  padding-bottom: 20px;
+}
+.health .egg a {
+  text-decoration: none;
+  color: #464646;
+  font-family: mont-reg;
+  font-weight: 600;
+}
+.health .lip {
+  width: 32%;
+}
+.health .lip img {
+  padding-bottom: 20px;
+}
+.health .lip h1 {
+  font-size: 22px;
+  font-family: glacial-b;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.health .lip span {
+  font-size: 12px;
+  color: #a1a1a1;
+  font-family: "glacial";
+}
+.health .lip p {
+  font-family: "glacial";
+  line-height: 1.5;
+  color: #9e9e9e;
+  padding-bottom: 20px;
+}
+.health .lip a {
+  text-decoration: none;
+  color: #464646;
+  font-family: mont-reg;
+  font-weight: 600;
+}
+
+.brand {
+  text-align: center;
+}
+.brand h1 {
+  font-size: 32px;
+  padding: 20px 0 40px;
+  font-family: glacial-b;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.brands .brand1 {
+  width: 13%;
+}
+.brands .brand2 {
+  width: 13%;
+}
+.brands .brand3 {
+  width: 13%;
+}
+.brands .brand4 {
+  width: 13%;
+}
+.brands .brand5 {
+  width: 13%;
+}
+.brands .brand5 img {
+  margin-top: 21px;
+}
+
+.black {
+  background-color: #262626;
+}
+.black .foot {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}
+.black .foot .foot1 {
+  width: 24%;
+}
+.black .foot .foot1 .a {
+  border-bottom: 2px solid #222222;
+}
+.black .foot .foot1 .a h1 {
+  width: 20%;
+  margin: 80px 0 -2px;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  font-family: poppins;
+}
+.black .foot .foot1 p {
+  padding-top: 70px;
+  font-family: poppins;
+  line-height: 1.7;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.black .foot .foot1 ul {
+  margin-top: 14px;
+}
+.black .foot .foot1 ul li {
+  display: inline;
+  border: 2px solid white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 24px;
+  margin-right: 13px;
+}
+.black .foot .foot2 {
+  width: 24%;
+  margin-bottom: 60px;
+}
+.black .foot .foot2 .b {
+  border-bottom: 2px solid #222222;
+}
+.black .foot .foot2 .b h1 {
+  width: 20%;
+  margin: 80px 0 -2px;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  font-family: poppins;
+}
+.black .foot .foot2 ul {
+  padding-top: 77px;
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 600;
+  word-spacing: 1;
+}
+.black .foot .foot2 ul li {
+  padding-bottom: 20px;
+}
+.black .foot .foot2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.black .foot .foot2 ul :hover {
+  color: #ccc;
+}
+.black .foot .foot3 {
+  width: 24%;
+}
+.black .foot .foot3 .c {
+  border-bottom: 2px solid #222222;
+}
+.black .foot .foot3 .c h1 {
+  width: 27%;
+  margin: 80px 0 -2px;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  font-family: poppins;
+}
+.black .foot .foot3 ul {
+  padding-top: 70px;
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 600;
+}
+.black .foot .foot3 ul li {
+  padding-bottom: 20px;
+}
+.black .foot .foot3 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.black .foot .foot3 ul :hover {
+  color: #ccc;
+}
+.black .foot .foot4 {
+  width: 24%;
+}
+.black .foot .foot4 .d {
+  border-bottom: 2px solid #222222;
+}
+.black .foot .foot4 .d h1 {
+  width: 35%;
+  margin: 80px 0 -2px;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  font-family: poppins;
+}
+.black .foot .foot4 ul {
+  padding-top: 70px;
+  font-family: "open-reg";
+  font-size: 13px;
+}
+.black .foot .foot4 ul li {
+  margin-bottom: 20px;
+  display: flex;
+}
+.black .foot .foot4 ul li i {
+  font-size: 17px;
+  margin-right: 20px;
+}
+.black .foot .foot4 ul li h2 {
+  margin-top: -5px;
+  line-height: 2;
+}
+.black .foot .foot4 ul li h2 span a {
+  text-decoration: none;
+  color: white;
+}
+.black .foot .foot4 ul li h2 span :hover {
+  color: #ccc;
+}
+
+@media only screen and (max-width: 576px) and (min-width: 375px) {
+  .container {
+    width: 100%;
+  }
+  .container .topbar {
+    display: block !important;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
+  .container .topbar .toplink {
+    width: 100% !important;
+  }
+  .container .topbar .toplink ul {
+    padding: 30px 0 0px 35px !important;
+  }
+  .container .topbar .topicon {
+    width: 100% !important;
+  }
+  .container .topbar .topicon .left ul {
+    padding-left: 0px !important;
+  }
+  .container .riot {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container .riot .logo {
+    width: 40%;
+  }
+  .container .riot .logo img {
+    margin: 15px 15px 40px;
+  }
+  .container .riot nav {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .container .riot nav i.fa-solid {
+    font-size: 22px;
+    margin: 24px 30px;
+    display: block;
+    padding-left: 115%;
+    margin-top: -83px;
+  }
+  .container .riot nav ul {
+    margin-top: 10px;
+    display: none;
+  }
+  .container .riot nav ul li {
+    display: block;
+    padding-left: 0;
+    margin: 20px 7px;
+    padding: 5px;
+  }
+  .container .riot nav:hover ul {
+    display: block;
+    width: 100%;
+  }
+  .container .riot .icon {
+    width: 100%;
+    margin-top: -60px;
+    text-align: end;
+    display: none;
+  }
+  .container .riot .icon ul {
+    margin-top: 39px;
+  }
+  .container .riot .icon ul li {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+  }
+  .container .b2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .b2 .b21 {
+    margin-left: 5%;
+    padding-left: 45px;
+  }
+  .container .b2 .b21 img {
+    width: 100%;
+  }
+  .container .b2 .b22 {
+    margin-left: 5%;
+    padding-right: 58px;
+  }
+  .container .b2 .b22 img {
+    width: 100%;
+  }
+  .container .b2 .b23 {
+    margin-left: 36%;
+  }
+  .container .b2 .b23 img {
+    width: 100%;
+  }
+  .container .product {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .product .industry {
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: 15px;
+    height: 205px;
+    background-size: cover;
+  }
+  .container .product .industry .i {
+    width: 75%;
+  }
+  .container .product .industry .i h1 {
+    padding-top: 165px;
+    font-size: 22px;
+  }
+  .container .product .industry .i1 {
+    width: 25%;
+  }
+  .container .product .industry .i1 i {
+    padding: 158px 0 0 35px;
+  }
+  .container .product .health2 {
+    width: 94%;
+    margin-left: 3%;
+    height: 205px;
+    background-size: cover;
+  }
+  .container .product .health2 .h {
+    width: 75%;
+  }
+  .container .product .health2 .h h1 {
+    padding-top: 165px;
+    font-size: 22px;
+  }
+  .container .product .health2 .h1 {
+    width: 25%;
+  }
+  .container .product .health2 .h1 i {
+    padding: 158px 0 0 35px;
+  }
+  .container .products {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .container .products .pro1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    height: 210px;
+  }
+  .container .products .pro2 {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+  }
+  .container .products .pro3 {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    height: 170px;
+  }
+  .container .products .pro4 {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    height: 210px;
+  }
+  .container .product1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .product1 .industry1 {
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: 15px;
+    height: 205px;
+    background-size: cover;
+  }
+  .container .product1 .industry1 .k {
+    width: 75%;
+  }
+  .container .product1 .industry1 .k h1 {
+    padding-top: 165px;
+    font-size: 22px;
+  }
+  .container .product1 .industry1 .k1 {
+    width: 25%;
+  }
+  .container .product1 .industry1 .k1 i {
+    padding: 158px 0 0 35px;
+  }
+  .container .product1 .health1 {
+    width: 94%;
+    margin-left: 3%;
+    height: 205px;
+    background-size: cover;
+  }
+  .container .product1 .health1 .m {
+    width: 75%;
+  }
+  .container .product1 .health1 .m h1 {
+    padding-top: 165px;
+    font-size: 22px;
+  }
+  .container .product1 .health1 .m1 {
+    width: 25%;
+  }
+  .container .product1 .health1 .m1 i {
+    padding: 158px 0 0 35px;
+  }
+  .container .world {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .world .pure {
+    width: 100%;
+  }
+  .container .world .pure p {
+    padding: 0 0 20px 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .world .free {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .world .free p {
+    padding-right: 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .world .best {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .world .best p {
+    padding-right: 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .portfolio h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .come {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .container .come .line {
+    padding: 50px 20px 15px;
+  }
+  .container .come .line h1 {
+    font-size: 13px;
+    padding-bottom: 8px;
+  }
+  .container .come .line p {
+    font-size: 6px;
+    margin-right: 16px;
+    line-height: 1.3;
+  }
+  .container .view {
+    margin-bottom: 10px;
+  }
+  .container .view button {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .container .blog h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .health {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .health .mask {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .container .health .mask img {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .container .health .mask h1 {
+    font-size: 16px;
+  }
+  .container .health .mask p {
+    font-size: 13px;
+  }
+  .container .health .egg {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .container .health .egg img {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .container .health .egg h1 {
+    font-size: 16px;
+    margin: 0 10%;
+  }
+  .container .health .egg p {
+    font-size: 13px;
+  }
+  .container .health .lip {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .container .health .lip img {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .container .health .lip h1 {
+    font-size: 16px;
+  }
+  .container .health .lip p {
+    font-size: 13px;
+  }
+  .container .brand h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .brands {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container .brands .brand1 img {
+    width: 90%;
+  }
+  .container .brands .brand2 img {
+    width: 80%;
+  }
+  .container .brands .brand3 img {
+    width: 70%;
+  }
+  .container .brands .brand4 img {
+    width: 90%;
+  }
+  .container .brands .brand5 img {
+    width: 100%;
+  }
+  .container .black {
+    display: block;
+    width: 100%;
+  }
+  .banner {
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  .banner h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .banner p {
+    font-size: 10px;
+    margin: 0 45px;
+    padding-bottom: 12px;
+  }
+  .banner button {
+    font-size: 10px;
+    padding: 7px 15px;
+  }
+  .banner img {
+    width: 7%;
+    margin-top: 15px;
+  }
+  .black .foot {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+  }
+  .black .foot .foot1 {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .black .foot .foot1 .a h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+  }
+  .black .foot .foot1 p {
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin: 0 10%;
+  }
+  .black .foot .foot1 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot2 {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .black .foot .foot2 .b h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 23%;
+  }
+  .black .foot .foot2 ul {
+    padding-top: 30px;
+  }
+  .black .foot .foot2 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .black .foot .foot3 .c h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 23%;
+  }
+  .black .foot .foot3 ul {
+    padding-top: 30px;
+  }
+  .black .foot .foot3 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot4 {
+    width: 100%;
+  }
+  .black .foot .foot4 .d h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 28%;
+  }
+  .black .foot .foot4 ul {
+    padding-top: 30px;
+    margin-left: 35%;
+  }
+  .black .foot .foot4 ul li {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    text-align: initial;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .container {
+    width: 100%;
+  }
+  .container .topbar {
+    display: block !important;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
+  .container .topbar .toplink {
+    width: 100% !important;
+  }
+  .container .topbar .toplink ul {
+    padding-bottom: 0px !important;
+  }
+  .container .topbar .topicon {
+    width: 100% !important;
+  }
+  .container .topbar .topicon .left {
+    width: 50% !important;
+  }
+  .container .topbar .topicon .right {
+    width: 50% !important;
+  }
+  .container .riot {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container .riot .logo {
+    width: 40%;
+  }
+  .container .riot .logo img {
+    margin: 15px 15px 40px;
+  }
+  .container .riot nav {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .container .riot nav i.fa-solid {
+    font-size: 30px;
+    margin: 42px 38%;
+    display: block;
+    padding-left: 100%;
+    margin-top: -110px;
+  }
+  .container .riot nav ul {
+    margin-top: 10px;
+    display: none;
+  }
+  .container .riot nav ul li {
+    display: block;
+    padding-left: 0;
+    margin: 20px 7px;
+    padding: 5px;
+  }
+  .container .riot nav:hover ul {
+    display: block;
+    width: 100%;
+  }
+  .container .riot .icon {
+    width: 100%;
+    margin-top: -60px;
+    text-align: end;
+    display: none;
+  }
+  .container .riot .icon ul {
+    margin-top: 39px;
+  }
+  .container .riot .icon ul li {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+  }
+  .container .b2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .b2 .b21 {
+    margin-left: 5%;
+    padding-left: 45px;
+  }
+  .container .b2 .b21 img {
+    width: 100%;
+  }
+  .container .b2 .b22 {
+    margin-left: 5%;
+    padding-right: 58px;
+  }
+  .container .b2 .b22 img {
+    width: 100%;
+  }
+  .container .b2 .b23 {
+    margin-left: 36%;
+  }
+  .container .b2 .b23 img {
+    width: 100%;
+  }
+  .container .product {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .product .industry {
+    width: 74%;
+    margin-left: 14%;
+    margin-bottom: 15px;
+  }
+  .container .product .industry .i {
+    width: 55%;
+  }
+  .container .product .industry .i h1 {
+    padding-top: 230px;
+  }
+  .container .product .industry .i1 {
+    width: 45%;
+  }
+  .container .product .industry .i1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .product .health2 {
+    width: 74%;
+    margin-left: 14%;
+  }
+  .container .product .health2 .h {
+    width: 55%;
+  }
+  .container .product .health2 .h h1 {
+    padding-top: 230px;
+  }
+  .container .product .health2 .h1 {
+    width: 45%;
+  }
+  .container .product .health2 .h1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .products {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .container .products .pro1 {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+  }
+  .container .products .pro2 {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+  }
+  .container .products .pro3 {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+  }
+  .container .products .pro4 {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+  }
+  .container .product1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .product1 .industry1 {
+    width: 74%;
+    margin-left: 14%;
+    margin-bottom: 15px;
+  }
+  .container .product1 .industry1 .k {
+    width: 55%;
+  }
+  .container .product1 .industry1 .k h1 {
+    padding-top: 230px;
+  }
+  .container .product1 .industry1 .k1 {
+    width: 45%;
+  }
+  .container .product1 .industry1 .k1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .product1 .health1 {
+    width: 74%;
+    margin-left: 14%;
+  }
+  .container .product1 .health1 .m {
+    width: 55%;
+  }
+  .container .product1 .health1 .m h1 {
+    padding-top: 230px;
+  }
+  .container .product1 .health1 .m1 {
+    width: 45%;
+  }
+  .container .product1 .health1 .m1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .world {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .world .pure {
+    width: 100%;
+  }
+  .container .world .pure p {
+    padding: 0 0 20px 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .world .free {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .world .free p {
+    padding-right: 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .world .best {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .world .best p {
+    padding-right: 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .portfolio h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .come {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .container .come .line {
+    padding: 100px 20px 15px;
+  }
+  .container .come .line h1 {
+    font-size: 14px;
+  }
+  .container .come .line p {
+    font-size: 10px;
+    margin-right: 16px;
+  }
+  .container .view {
+    margin-bottom: 10px;
+  }
+  .container .view button {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .container .blog h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .health {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .health .mask {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .container .health .mask img {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .container .health .mask h1 {
+    font-size: 16px;
+  }
+  .container .health .mask p {
+    font-size: 13px;
+  }
+  .container .health .egg {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .container .health .egg img {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .container .health .egg h1 {
+    font-size: 16px;
+    margin: 0 10%;
+  }
+  .container .health .egg p {
+    font-size: 13px;
+  }
+  .container .health .lip {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .container .health .lip img {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .container .health .lip h1 {
+    font-size: 16px;
+  }
+  .container .health .lip p {
+    font-size: 13px;
+  }
+  .container .brand h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .brands {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container .brands .brand1 img {
+    width: 90%;
+  }
+  .container .brands .brand2 img {
+    width: 80%;
+  }
+  .container .brands .brand3 img {
+    width: 70%;
+  }
+  .container .brands .brand4 img {
+    width: 90%;
+  }
+  .container .brands .brand5 img {
+    width: 100%;
+  }
+  .container .black {
+    display: block;
+    width: 100%;
+  }
+  .banner {
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  .banner h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .banner p {
+    font-size: 10px;
+    margin: 0 45px;
+    padding-bottom: 12px;
+  }
+  .banner button {
+    font-size: 10px;
+    padding: 7px 15px;
+  }
+  .banner img {
+    width: 7%;
+    margin-top: 15px;
+  }
+  .black .foot {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+  }
+  .black .foot .foot1 {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .black .foot .foot1 .a h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+  }
+  .black .foot .foot1 p {
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin: 0 10%;
+  }
+  .black .foot .foot1 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot2 {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .black .foot .foot2 .b h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 23%;
+  }
+  .black .foot .foot2 ul {
+    padding-top: 30px;
+  }
+  .black .foot .foot2 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .black .foot .foot3 .c h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 23%;
+  }
+  .black .foot .foot3 ul {
+    padding-top: 30px;
+  }
+  .black .foot .foot3 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot4 {
+    width: 100%;
+  }
+  .black .foot .foot4 .d h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 28%;
+  }
+  .black .foot .foot4 ul {
+    padding-top: 30px;
+    margin-left: 42%;
+  }
+  .black .foot .foot4 ul li {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    text-align: initial;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .container {
+    width: 100%;
+  }
+  .container .topbar {
+    display: block !important;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
+  .container .topbar .toplink {
+    width: 100% !important;
+  }
+  .container .topbar .toplink ul {
+    padding-bottom: 0px !important;
+  }
+  .container .topbar .topicon {
+    width: 100% !important;
+  }
+  .container .topbar .topicon .left {
+    width: 50% !important;
+  }
+  .container .topbar .topicon .right {
+    width: 50% !important;
+  }
+  .container .riot {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container .riot .logo {
+    width: 40%;
+  }
+  .container .riot nav i.fa-solid {
+    font-size: 40px;
+    margin: 70px 15%;
+    display: block;
+    padding-left: 130%;
+    margin-top: -122px;
+  }
+  .container .riot nav ul {
+    margin-top: 10px;
+    display: none;
+  }
+  .container .riot nav ul li {
+    display: block;
+    padding-left: 0;
+    margin: 20px 7px;
+    padding: 5px;
+  }
+  .container .riot nav:hover ul {
+    display: block;
+    width: 100%;
+  }
+  .container .riot .icon {
+    width: 100%;
+    margin-top: -60px;
+    text-align: end;
+    display: none;
+  }
+  .container .riot .icon ul {
+    margin-top: 39px;
+  }
+  .container .riot .icon ul li {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+  }
+  .container .b2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .b2 .b21 {
+    margin-left: 5%;
+    padding-left: 45px;
+  }
+  .container .b2 .b21 img {
+    width: 100%;
+  }
+  .container .b2 .b22 {
+    margin-left: 5%;
+    padding-right: 58px;
+  }
+  .container .b2 .b22 img {
+    width: 100%;
+  }
+  .container .b2 .b23 {
+    margin-left: 36%;
+  }
+  .container .b2 .b23 img {
+    width: 100%;
+  }
+  .container .product {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .product .industry {
+    width: 56%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .container .product .industry .i {
+    width: 55%;
+  }
+  .container .product .industry .i h1 {
+    padding-top: 230px;
+  }
+  .container .product .industry .i1 {
+    width: 45%;
+  }
+  .container .product .industry .i1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .product .health2 {
+    width: 56%;
+    margin: 0 auto;
+  }
+  .container .product .health2 .h {
+    width: 55%;
+  }
+  .container .product .health2 .h h1 {
+    padding-top: 230px;
+  }
+  .container .product .health2 .h1 {
+    width: 45%;
+  }
+  .container .product .health2 .h1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .products {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .container .products .pro1 {
+    width: 56%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .container .products .pro2 {
+    width: 56%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .container .products .pro3 {
+    width: 56%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .container .products .pro4 {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+  }
+  .container .product1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .product1 .industry1 {
+    width: 56%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .container .product1 .industry1 .k {
+    width: 55%;
+  }
+  .container .product1 .industry1 .k h1 {
+    padding-top: 230px;
+  }
+  .container .product1 .industry1 .k1 {
+    width: 45%;
+  }
+  .container .product1 .industry1 .k1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .product1 .health1 {
+    width: 56%;
+    margin: 0 auto;
+  }
+  .container .product1 .health1 .m {
+    width: 55%;
+  }
+  .container .product1 .health1 .m h1 {
+    padding-top: 230px;
+  }
+  .container .product1 .health1 .m1 {
+    width: 45%;
+  }
+  .container .product1 .health1 .m1 i {
+    padding-top: 245px;
+    padding-left: 70%;
+  }
+  .container .world {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .world .pure {
+    width: 100%;
+  }
+  .container .world .pure p {
+    padding: 0 0 20px 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .world .free {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .world .free p {
+    padding-right: 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .world .best {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .world .best p {
+    padding-right: 0;
+    margin: 0 36px;
+    font-size: 15px;
+  }
+  .container .portfolio h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .come {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .container .come .line {
+    padding: 100px 20px 15px;
+  }
+  .container .come .line h1 {
+    font-size: 14px;
+  }
+  .container .come .line p {
+    font-size: 10px;
+    margin-right: 16px;
+  }
+  .container .view {
+    margin-bottom: 10px;
+  }
+  .container .view button {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .container .blog h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .health {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .health .mask {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .container .health .mask img {
+    width: 40%;
+    margin: 0 15%;
+  }
+  .container .health .mask h1 {
+    font-size: 16px;
+  }
+  .container .health .mask p {
+    font-size: 13px;
+  }
+  .container .health .egg {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .container .health .egg img {
+    width: 40%;
+    margin: 0 15%;
+  }
+  .container .health .egg h1 {
+    font-size: 16px;
+    margin: 0 10%;
+  }
+  .container .health .egg p {
+    font-size: 13px;
+  }
+  .container .health .lip {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .container .health .lip img {
+    width: 40%;
+    margin: 0 15%;
+  }
+  .container .health .lip h1 {
+    font-size: 16px;
+  }
+  .container .health .lip p {
+    font-size: 13px;
+  }
+  .container .brand h1 {
+    font-size: 18px;
+    padding: 7px 0 20px;
+  }
+  .container .brands {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .container .brands .brand1 img {
+    width: 90%;
+  }
+  .container .brands .brand2 img {
+    width: 80%;
+  }
+  .container .brands .brand3 img {
+    width: 70%;
+  }
+  .container .brands .brand4 img {
+    width: 90%;
+  }
+  .container .brands .brand5 img {
+    width: 100%;
+  }
+  .container .black {
+    display: block;
+    width: 100%;
+  }
+  .banner {
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  .banner h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .banner p {
+    font-size: 10px;
+    margin: 0 45px;
+    padding-bottom: 12px;
+  }
+  .banner button {
+    font-size: 10px;
+    padding: 7px 15px;
+  }
+  .banner img {
+    width: 3%;
+    margin-top: 15px;
+  }
+  .black .foot {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+  }
+  .black .foot .foot1 {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .black .foot .foot1 .a h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+  }
+  .black .foot .foot1 p {
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin: 0 10%;
+  }
+  .black .foot .foot1 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot2 {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .black .foot .foot2 .b h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 23%;
+  }
+  .black .foot .foot2 ul {
+    padding-top: 30px;
+  }
+  .black .foot .foot2 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .black .foot .foot3 .c h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 23%;
+  }
+  .black .foot .foot3 ul {
+    padding-top: 30px;
+  }
+  .black .foot .foot3 ul li {
+    font-size: 10px;
+  }
+  .black .foot .foot4 {
+    width: 100%;
+  }
+  .black .foot .foot4 .d h1 {
+    margin: 15px 0 -1px 37%;
+    padding-bottom: 10px;
+    width: 28%;
+  }
+  .black .foot .foot4 ul {
+    padding-top: 30px;
+    margin-left: 42%;
+  }
+  .black .foot .foot4 ul li {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    text-align: initial;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
